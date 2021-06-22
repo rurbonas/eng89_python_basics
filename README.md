@@ -4,7 +4,23 @@
 
 - Test installation and Pycharm
 
-#Activity/task
+# To initialise a repo using pycharm
+
+- ```git init```
+- To check what's added to be sent to git hub
+- ```git status``` to ensure only required files are added to be sent
+- To add ```git add .``` or ```git add name_of_the_file```
+- To save changes ```git commit -m "logical message" ```
+- To push changes to git hub ```git push -u origin main```
+- If you have not set remote branch to main
+- You need to run ```git branch -M main``` after running the commit command
+- Adding remote to connect localhost with github repo
+- ```git remote add origin git@github.com:example/eng89_python_basics.git``` Setting the branch to -M main and adding the remote is only to be done first time
+
+Diagram by Khanmaster
+![Diagram by Khanmaster](https://trello-attachments.s3.amazonaws.com/603d260f5690ef1cd5b54430/60d05369263b542bdb3c3361/35665861b9b1a7ea274e0d5c8fb9d53d/Screenshot_(26).png)
+
+# Activity/task
 
 - variables first_name, last_name, age, DOB
 - prompt user to input above value
